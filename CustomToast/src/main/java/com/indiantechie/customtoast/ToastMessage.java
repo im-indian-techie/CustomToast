@@ -9,7 +9,7 @@ public class ToastMessage {
         this.context=context;
     }
 
-    public static void show(Context c, String message){
+    public  void show(Context c, String message){
 
         Toast.makeText(c,message, Toast.LENGTH_SHORT).show();
 
