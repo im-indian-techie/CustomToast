@@ -4,6 +4,10 @@ import android.content.Context;
 import android.widget.Toast;
 
 public class ToastMessage {
+    private Context context;
+    public ToastMessage(Context context) {
+        this.context=context;
+    }
 
     public static void show(Context c, String message){
 
